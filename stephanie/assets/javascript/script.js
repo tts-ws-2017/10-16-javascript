@@ -27,3 +27,7 @@ $( function() {
       source: availableTags
     });
   } );
+
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
