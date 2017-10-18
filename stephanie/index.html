@@ -3,7 +3,8 @@
 <html>
 
 <head>
-    <link src="http://code.jquery.com/ui/1.12.1/themes/le-frog/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="assets/stylesheets/custom.css" />
 </head>
 
@@ -11,35 +12,35 @@
     <h1>Javascript In Class</h1>
     <div class="centered">
         <div class="widget">
-            <h1>Checkbox and radio button widgets</h1>
+            <h1>...checkbox and radio button widgets...</h1>
 
             <h2>Radio Group</h2>
             <fieldset>
-                <legend>Select a Location: </legend>
-                <label for="radio-1">New York</label>
+                <legend>pick a day</legend>
+                <label for="radio-1">Mon</label>
                 <input type="radio" name="radio-1" id="radio-1">
-                <label for="radio-2">Paris</label>
+                <label for="radio-2">Wed</label>
                 <input type="radio" name="radio-1" id="radio-2">
-                <label for="radio-3">London</label>
+                <label for="radio-3">Fri</label>
                 <input type="radio" name="radio-1" id="radio-3">
             </fieldset>
 
             <h2>Checkbox</h2>
             <fieldset>
-                <legend>Hotel Ratings: </legend>
-                <label for="checkbox-1">2 Star</label>
+                <legend>pick activity</legend>
+                <label for="checkbox-1">movie</label>
                 <input type="checkbox" name="checkbox-1" id="checkbox-1">
-                <label for="checkbox-2">3 Star</label>
+                <label for="checkbox-2">coffee shop</label>
                 <input type="checkbox" name="checkbox-2" id="checkbox-2">
-                <label for="checkbox-3">4 Star</label>
+                <label for="checkbox-3">walk the park</label>
                 <input type="checkbox" name="checkbox-3" id="checkbox-3">
-                <label for="checkbox-4">5 Star</label>
+                <label for="checkbox-4">get food</label>
                 <input type="checkbox" name="checkbox-4" id="checkbox-4">
             </fieldset>
 
             <h2>Checkbox nested in label</h2>
             <fieldset>
-                <legend>Bed Type: </legend>
+                <legend> </legend>
                 <label for="checkbox-nested-1">2 Double
       <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
     </label>
@@ -54,10 +55,15 @@
     </label>
             </fieldset>
         </div>
-        <div class="ui-widget">
-            <label for="tags">Tags: </label>
-            <input id="tags">
-        </div>
+        <ul id="sortable">
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+            <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+        </ul>
         <!-- javascript includes -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
